@@ -6,6 +6,11 @@ body{
     font-family: Verdana;
     background-color: rgb(61, 60, 60);
 }
+.header{
+    text-align: center;
+    padding: 30px;
+    color: antiquewhite;
+}
 #gallery{
     display: flex;
     flex-direction: row;
@@ -16,7 +21,7 @@ body{
 }
 #gallery img{
     width: 25%;
-    height: 280px;
+    height: 400px;
     padding: 0 5px;
     margin-top: 10px;
     object-fit: cover;
