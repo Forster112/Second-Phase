@@ -29,11 +29,25 @@ body{
 }
 @media (max-width: 800px){
     #gallery img{
-        width: 50%;
+        width: 33.33%;
+    }
+    h1{
+        font-size: 25px;
     }
 }
 @media (max-width: 600px){
     #gallery img{
+        width: 50%;
+    }
+    h1{
+        font-size: 22px;
+    }
+}
+@media (max-width: 450px){
+    #gallery img{
         width: 100%;
+    }
+    h1{
+        font-size: 15px;
     }
 }
